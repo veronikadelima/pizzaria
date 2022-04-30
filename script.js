@@ -17,7 +17,7 @@ pizzaJson.map((item, index)=>{
         c('.pizzaInfo h1').innerHTML = pizzaJson[key].name;
         c('.pizzaInfo--desc').innerHTML = pizzaJson[key].description;
         c('.pizzaInfo--price').innerHTML = `R$ ${pizzaJson[key].price.toFixed(2)}`;
-        cs('.pizza--size').forEach((size, sizeIndex)=>{
+        cs('.pizzaInfo--size').forEach((size, sizeIndex)=>{
             size.querySelector('span').innerHTML = 123;
         });
         c('.pizzaWindowArea').style.opacity = 0;        
