@@ -208,7 +208,8 @@ h1 {
     font-weight: normal;
 }
 .pizzaInfo--price {
-    display:inline-flex;
+    display:flex;
+    align-items:center;
 }
 .pizzaInfo--actualPrice {
     font-size:28px;
@@ -219,11 +220,10 @@ h1 {
     background-color:#EEE;
     border-radius:10px;
     height:30px;
-    margin-left: 90px;
 }
 .pizzaInfo--qtarea button {
     border:0;
-    background-color: transparent;
+    background-color:transparent;
     font-size:17px;
     outline:0;
     cursor:pointer;
@@ -253,15 +253,7 @@ h1 {
 .pizzaInfo--cancelButton {
     display:inline-block;
     cursor:pointer;
-    padding: 20px 30px;
-    border: 1px solid #DDD;
-    border-radius: 20px;
 }
-
-.pizzaInfo--cancelButton:hover {
-   background-color: #EEE;
-}
-
 .pizzaInfo--cancelMobileButton {
     display:none;
     height:40px;
